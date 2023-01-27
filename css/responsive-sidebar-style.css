@@ -11,7 +11,7 @@ body {
     font-family: "Varela Round", sans-serif;
 
 }
-header {
+.header {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -65,7 +65,7 @@ border-top: 1px solid rgba(255, 255, 255, 0.10);
 .sidebarMenuInner li:hover {
     background: rgba(0, 0, 0, 0.10);
 }
-input[type=checkbox]:checked ~ #sidebarMenu {
+input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
 input[type=checkbox] {
